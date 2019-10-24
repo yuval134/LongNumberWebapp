@@ -19,5 +19,5 @@ app.get('/multiply', (req, res) => {
     res.send(`${req.query.first} * ${req.query.second} = ${out.join('')}`);
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}...`));
+app.listen(port, () => console.log(`Listening...`));
 
