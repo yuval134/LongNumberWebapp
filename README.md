@@ -1,6 +1,6 @@
 # Long Number Arithmetic RESTful web service
 
-## running the app:
+## Running the app:
 Run one of the options below in the app working directory
 1. using docker file:
     - run `docker build -t long_number .`
@@ -8,7 +8,7 @@ Run one of the options below in the app working directory
 2. run `node server.js` 
 3. run `nmp run start`
 
-## instructions:
+## Instructions:
 Both APIs expects 2 query params: `first` and `second`.
 1. Sum operator example request: `http://localhost:8080/sum?first=123&second=321`
 2. Multiply operator example request: `http://localhost:8080/multiply?first=122&second=3`
