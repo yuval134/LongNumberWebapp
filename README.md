@@ -1,7 +1,7 @@
 # Long Number Arithmetic RESTful web service
 
 ## running the app:
-run one of the options below in the app working directory
+Run one of the options below in the app working directory
 1. using docker file:
     - run `docker build -t long_number .`
     - and then run `docker run -p {a port of your choice}:8080 -d long_number`
@@ -22,6 +22,6 @@ than POST which is used for changing the server state (like forms).
 
 ### Future development options:
 1. Support other operations such as subtraction, power etc.
-2. Support multiple parameters, more then 2.
+2. Support multiple parameters, more than 2.
 3. Support POST request for very long numbers or huge amount of parameters.
  
